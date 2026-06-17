@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         GestionareAmenzi gestionareAmenzi = new GestionareAmenzi();
 
-        Amenda amenda1 = new Amenda("1234567890123", 100.0);
+        Amenda amenda1 = new Amenda("1031274456709", 100.0);
         Amenda amenda2 = new Amenda("1234567890123", 200.0);
         Amenda amenda3 = new Amenda("9876543210987", 150.0);
 
