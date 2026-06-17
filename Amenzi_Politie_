@@ -9,7 +9,12 @@ public class amenzi_politie {
         return cnp;
     }
     public abstract double calculAmenzi();
-
+@Override
+    public String toString() {
+        return "amenzi_politie{" +
+                "cnp='" + cnp + '\'' +
+                '}';
+    }
     public abstract String getTipAmenzi();
     
 }

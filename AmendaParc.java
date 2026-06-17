@@ -6,6 +6,10 @@ public AmendaParc(String cnp, double valoareBun) {
     super(cnp);
     this.valoareBun = valoareBun;
 }
+@Override
+    public double calculAmenzi(){
+        return VALOARE_AMENDA + (0.1 * valoareBun);
+    }
 
 public double getValoareBun() {
     return valoareBun;
