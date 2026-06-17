@@ -1,0 +1,15 @@
+public class amenzi_politie {
+    protected String cnp;
+
+    public amenzi_politie(String cnp) {
+        this.cnp = cnp;
+    }
+
+    public String getCnp() {
+        return cnp;
+    }
+    public abstract double calculAmenzi();
+
+    public abstract String getTipAmenzi();
+    
+}
